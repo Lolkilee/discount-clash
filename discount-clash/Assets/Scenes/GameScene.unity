@@ -313,6 +313,7 @@ GameObject:
   - component: {fileID: 526598586}
   - component: {fileID: 526598585}
   - component: {fileID: 526598584}
+  - component: {fileID: 526598587}
   m_Layer: 0
   m_Name: main_tower_2
   m_TagString: Untagged
@@ -398,6 +399,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 526598582}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &526598587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 526598582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d2c81d7a5b090849892adc44dec0891, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 5000
+  attackDmg: 75
+  isKingTower: 1
 --- !u!1 &881449426
 GameObject:
   m_ObjectHideFlags: 0
@@ -410,6 +426,7 @@ GameObject:
   - component: {fileID: 881449430}
   - component: {fileID: 881449429}
   - component: {fileID: 881449428}
+  - component: {fileID: 881449431}
   m_Layer: 0
   m_Name: secondary_tower_3
   m_TagString: Untagged
@@ -495,6 +512,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 881449426}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &881449431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 881449426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d2c81d7a5b090849892adc44dec0891, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 3000
+  attackDmg: 50
+  isKingTower: 0
 --- !u!1 &1050908754
 GameObject:
   m_ObjectHideFlags: 0
@@ -604,6 +636,7 @@ GameObject:
   - component: {fileID: 1124713043}
   - component: {fileID: 1124713042}
   - component: {fileID: 1124713041}
+  - component: {fileID: 1124713044}
   m_Layer: 0
   m_Name: secondary_tower_4
   m_TagString: Untagged
@@ -689,6 +722,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1124713039}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1124713044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1124713039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d2c81d7a5b090849892adc44dec0891, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 3000
+  attackDmg: 50
+  isKingTower: 0
 --- !u!1 &1602382692
 GameObject:
   m_ObjectHideFlags: 0
@@ -739,6 +787,7 @@ GameObject:
   - component: {fileID: 1618490151}
   - component: {fileID: 1618490150}
   - component: {fileID: 1618490149}
+  - component: {fileID: 1618490152}
   m_Layer: 0
   m_Name: secondary_tower_2
   m_TagString: Untagged
@@ -824,6 +873,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1618490147}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1618490152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618490147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d2c81d7a5b090849892adc44dec0891, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 3000
+  attackDmg: 50
+  isKingTower: 0
 --- !u!1 &1700680582
 GameObject:
   m_ObjectHideFlags: 0
@@ -836,6 +900,7 @@ GameObject:
   - component: {fileID: 1700680586}
   - component: {fileID: 1700680585}
   - component: {fileID: 1700680584}
+  - component: {fileID: 1700680587}
   m_Layer: 0
   m_Name: main_tower_1
   m_TagString: Untagged
@@ -921,6 +986,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1700680582}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1700680587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700680582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d2c81d7a5b090849892adc44dec0891, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 5000
+  attackDmg: 75
+  isKingTower: 1
 --- !u!1 &1758003050
 GameObject:
   m_ObjectHideFlags: 0
@@ -933,6 +1013,7 @@ GameObject:
   - component: {fileID: 1758003054}
   - component: {fileID: 1758003053}
   - component: {fileID: 1758003052}
+  - component: {fileID: 1758003055}
   m_Layer: 0
   m_Name: secondary_tower_1
   m_TagString: Untagged
@@ -1018,3 +1099,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1758003050}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1758003055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1758003050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d2c81d7a5b090849892adc44dec0891, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 3000
+  attackDmg: 50
+  isKingTower: 0
